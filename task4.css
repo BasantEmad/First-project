@@ -1,0 +1,227 @@
+*{
+    font-style: italic;
+}
+/**navbar**/ 
+nav{
+
+    background: linear-gradient( to left, black ,white 70%);
+    position:   fixed  ;  
+}
+nav img{
+    width: 135px;
+    height: 66px;
+}
+
+.nav-link{
+    color: black !important;  
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/**carousel**/
+.carousel{
+    margin-bottom: 50px;
+}
+/**about us**/
+
+.aboutimg:hover{
+    transform: scale(1.2);
+    
+}
+.aboutus{
+    background-color: black;
+    margin-bottom: 50px;
+
+}
+.h1aboutus{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+p{
+    color: white;
+    
+}
+h3{
+    color: white;
+    font-style: italic;
+}
+.hr{
+    width: 50%;
+    height: 2px;
+    background-color: red;
+    margin-left: 25%
+    
+}
+.hr2{
+    width: 40%;
+    height: 2px;
+    background-color: red;
+    margin-left: 29%;
+    margin-top: 10px;
+   
+    
+    
+}
+.hr3{
+    width: 30%;
+    height: 2px;
+    background-color: red;
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+@media screen and  (max-width: 900px) {
+    .h1aboutus {
+     font-size: 30px !important;
+     margin-bottom: 10px !important;
+    }
+    
+  }
+
+  
+/**gallary**/
+.imggallary{
+    width: 25%;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.Gallary{
+    background-color: black;
+    margin-bottom: 50px;
+
+}
+.h1Gallary{
+    text-align: center;
+    font-size: 100px ;
+    color: white;
+}
+.Gallary .nav-link{
+    margin-left: 220px;
+    font-size: 25px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media screen and  (max-width: 900px) {
+
+   .h1Gallary{
+     font-size: 30px !important ;
+     margin-bottom: 10px;
+
+   }
+
+     .imggallary{
+        width: 25%;
+        height: 200px;
+        margin: 20px;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .Gallary .nav-link{
+        margin-left: 125px;
+       font-size: 15px !important;
+       background-color: white;
+       margin-bottom: 20px;
+       margin-top: 20px;
+       }
+    }
+    
+    
+    
+   
+
+    
+
+/**contact us**/
+ .contactmain{
+     background-color: black;
+ }
+ h1{
+     font-size: 70px !important;
+     font-weight: 800 !important;
+     text-align: center;
+     margin-bottom: 50px !important;
+     
+ }
+ h1:hover{
+     transform: scale(1.1);
+     color: rgb(45, 133, 204);
+ }
+ .name{
+     font-size: 30px;
+     color: rgb(45, 133, 204);
+     margin: 20px;
+ }
+   input[type="name"]{
+   border-radius: 20px;
+ }
+ input[type="text"]{
+    border-radius: 20px;
+     }
+     input[type="phone"]{
+        border-radius: 20px;
+         }
+ .btn.btn-primary:hover{
+     transform: scale(2.3);
+ }
+ @media screen and  (max-width: 800px) {
+
+    .h1contact{
+      font-size: 35px !important;
+      margin-bottom: 10px !important;
+ 
+    }
+
+
+/**footer**/
+
+  .icons{
+      background: linear-gradient( to left, black ,white 70%);;
+  }
+
+  .container2{
+    background: linear-gradient( to left, black ,white 70%);;
+  }
+  .fab.fa-facebook-square{
+      font-size: 50px;
+      margin-left:40%;
+      color:blue;
+      margin-top: 20px;
+     margin-bottom: 70px;
+    
+  }
+  .fab.fa-whatsapp-square{
+    font-size: 50px;
+    
+    color: green;
+  }
+  .fab.fa-instagram-square{
+    font-size: 50px;
+    
+    color:rgb(219, 11, 80)
+  }
+ .last{
+     margin-top: 200px;
+     margin-left: 60px;
+     color: white;
+ }
+ h5{
+     color:black;
+ }
+ 
+ h6{
+     color:black;
+ }
