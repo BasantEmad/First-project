@@ -1,6 +1,6 @@
 *{
     font-style: italic;
-}
+} 
 /**navbar**/ 
 nav{
 
@@ -125,13 +125,13 @@ h3{
         height: 200px;
         margin: 20px;
         float: left;
-        margin-left: 50px;
+        margin-left: 60px;
         margin-bottom: 50px;
     }
 
 
     .Gallary .nav-link{
-        margin-left: 125px;
+        margin-left: 160px;
        font-size: 15px !important;
        background-color: white;
        margin-bottom: 20px;
@@ -177,13 +177,14 @@ h3{
  .btn.btn-primary:hover{
      transform: scale(2.3);
  }
- @media screen and  (max-width: 800px) {
+ @media screen and  (max-width: 900px) {
 
     .h1contact{
       font-size: 35px !important;
       margin-bottom: 10px !important;
  
     }
+}
 
 
 /**footer**/
